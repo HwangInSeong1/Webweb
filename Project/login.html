@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Login
+        </title>
+        <meta charset="UTF-8">
+        <style>
+            body {
+                background-color: black;
+            }
+            #id {
+                width:80%;
+                height:100%;
+                background-color: white;
+                text-align: center;
+                margin:auto auto;
+            }
+            table {
+                margin:auto;
+                width: 350px;
+                height: 100px;
+            }
+            tr, td {
+                border:1px solid black;
+                text-align: center;
+            }
+            input[type=submit],input[type=button] {
+                font-size:13pt;
+                background-color: black;
+                color: white;
+                height:35px;
+                width: 80px;
+            }
+            input[type=text] {
+                height: 30px;
+            }
+            p {
+                font-family: "Roboto", serif;
+                font-size: 20pt; 
+            }
+        </style>
+    </head>
+    <body>
+        <div id=id>
+            <br><br><br><br><br><br><br><br><br>
+            <a href="main.html" target=_self><img src="img/logo.png" width=400 height=200></a>
+            <br>
+            <p>Dream of Developer:<br>
+            Study Room</p>
+            <br>
+        <table>
+            <tr>
+                <td style="width:30%;background-color:black;color:white"><b>ID</b></td> 
+                <td style="background-color:black;color:white"><input type=text size=28 name=id placeholder="아이디 입력"></td>
+            </tr>
+            <tr>
+                <td style="width:30%;background-color:black;color:white"><b>PW</b></td> 
+                <td style="background-color:black;color:white"><input type=text size=28 name=id placeholder="비밀번호 입력"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding:5px;border:1px solid white;">
+                    <a href="main.html"><input type=submit value=Login></a>
+                    <a href="sign.html"><input type=button value=SignUp></td></a>
+            </tr>
+        </table>
+        계정이 없으신가요? <a href="sign.html">[회원가입 바로가기]</a>
+        </div>
+    </body>
+</html>

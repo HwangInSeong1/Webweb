@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .cont {
+                width:100%;
+                height:100%;
+                background-color:rgba(170, 170, 170, 0.5);
+                text-align: center;
+                position: relative;
+                z-index: 1;
+            }
+            .cont:after {
+                background:url(img/bg1.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: absolute;
+                top:0;
+                left:0;
+                opacity:0.4!important;
+                z-index:-1;
+                content:"";
+                width: 100%;
+                height: 100%;
+            }
+            p {
+                font-family: "Roboto", serif;
+                text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+                font-size:70px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=cont>
+        <br><br><br>
+        <p><b style="color:red">H</b>yper
+            <b style="color:blue">T</b>ext 
+            <b style="color:green">M</b>arkup <b>L</b>anguage
+            <br>&lt;<b style="color:red">H</b><b style="color:blue">T</b><b style="color:green">M</b><b>L</b>&gt;</p>
+        <br>
+        <div><img src="img/html1.png" width=250px></div>
+    </div>
+    </body>
+</html>

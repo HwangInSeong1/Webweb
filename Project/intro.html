@@ -1,0 +1,70 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            .contain {
+                width: 100%;
+                height: 100%;
+                position: relative;
+                text-align: center;
+                z-index:1;
+            }
+            .contain:after {
+                background-image: url(img/back1.jpg);
+                background-repeat: no-repeat;
+                background-size:cover;
+                position: absolute;
+                top:0;
+                left:0;
+                opacity:0.3!important;
+                z-index:-1;
+                content:"";
+                width: 100%;
+                height: 100%;
+            }
+            .title {
+                font-size: 80px;
+                color:black;
+                font-family: "Roboto", serif;
+                padding-top: 20px;
+                text-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+            }
+            p {
+                font-size: 22px;
+                text-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+                font-family: 맑은고딕;
+            }
+            h3 {
+                font-size: 30px;
+                font-family: "Roboto", serif;
+                text-shadow: 1px 2px 1px rgba(0,0,0,0.2);
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="contain">
+            <h1 class="title">소 개</h1>
+            <h3>Dream of Developer: Study Room에 오신것을 환영합니다.</h3>
+
+            <p>저희 사이트는 개발자가 되기위해 배워야 할 언어들을 제공하고 가르치고 있습니다.<br>
+                Study Room1 같은 경우 Web을 만들기 위해 기본적으로 알아야할 언어들로 구성되어있고,<br>
+               Room2 또는 Room3 같은 경우, Web을 보충해주는 Back-End분야 언어들,<br>
+               다른 직군의 개발자를 희망하는 분들이 배울수 있도록 구성되어 있습니다.
+            </p>
+            <p>어떤 분야의 개발언어들을 배울지는 본인의 니즈에 따라 선택해서 공부하시면 되고,<br> 
+                공부하시면서 막히는 부분이 있거나, 이해가 잘 되지 않는 부분, 사이트 내 추가해줬으면 하는 개발언어 등<br>
+                어려움을 겪으시는 분들께선 곧바로 Q&A게시판을 이용해 글을 써주시면<br>
+                해당과목 선생님들께서 최대한 빠르게 해결방안과 함께 답해드릴 것입니다.
+            </p>
+            <p>자유게시판은 회원들끼리 서로 소스코드를 공유하거나, 해결 못한 문제, 취업고민 등<br>
+               자유롭게 소통할 수 있는 게시판이니 많이 이용해주세요. 사이트 내 연관사이트같은 경우<br>
+               본인이 원하는 직업이 무엇인지, 그 직군에서 원하는 필수사항이 무엇인지를 알수 있게<br>
+               취업사이트를 링크해두었고, 자신의 작성한 코드를 공유할수 있게하는 GitHub사이트 역시 링크해두었습니다.<br>
+               이 사이트 외에 매우 좋은 개발언어를 가르치는 선생님들의 사이트를 연결해두었으니<br>
+               참고해서 이용해보시길 바라겠습니다.<br>  
+            </p>
+            <p style="font-weight: bold;">그럼 회원님의 꿈을 꼭 이루시길 빌며, 소개를 마치겠습니다.</p>
+        </div>
+    </body>
+</html>
